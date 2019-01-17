@@ -3,7 +3,8 @@
   {vsn, "1.0.0"},
   {registered, []},
   {applications, [kernel, stdlib, crypto, gproc]},
-  {mod, {council_app, []}},
+  % {mod, {council_app, []}},
+  {modules, [council]},
   {env, [
     {names, ["Alfa", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf",
              "Hotel", "India", "Juliett", "Kilo", "Lima", "Mike", "November",

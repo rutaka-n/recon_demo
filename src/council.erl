@@ -1,4 +1,4 @@
--module(council_app).
+-module(council).
 
 -behaviour(application).
 
